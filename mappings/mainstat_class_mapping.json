@@ -1,0 +1,2498 @@
+{
+  "0": {
+    "stat_name": "ATK_flat",
+    "value": "79"
+  },
+  "1": {
+    "stat_name": "ATK_flat",
+    "value": "94"
+  },
+  "2": {
+    "stat_name": "ATK_flat",
+    "value": "110"
+  },
+  "3": {
+    "stat_name": "ATK_flat",
+    "value": "126"
+  },
+  "4": {
+    "stat_name": "ATK_flat",
+    "value": "142"
+  },
+  "5": {
+    "stat_name": "ATK_flat",
+    "value": "158"
+  },
+  "6": {
+    "stat_name": "ATK_flat",
+    "value": "173"
+  },
+  "7": {
+    "stat_name": "ATK_flat",
+    "value": "189"
+  },
+  "8": {
+    "stat_name": "ATK_flat",
+    "value": "205"
+  },
+  "9": {
+    "stat_name": "ATK_flat",
+    "value": "221"
+  },
+  "10": {
+    "stat_name": "ATK_flat",
+    "value": "237"
+  },
+  "11": {
+    "stat_name": "ATK_flat",
+    "value": "252"
+  },
+  "12": {
+    "stat_name": "ATK_flat",
+    "value": "268"
+  },
+  "13": {
+    "stat_name": "ATK_flat",
+    "value": "284"
+  },
+  "14": {
+    "stat_name": "ATK_flat",
+    "value": "300"
+  },
+  "15": {
+    "stat_name": "ATK_flat",
+    "value": "316"
+  },
+  "16": {
+    "stat_name": "ATK_flat",
+    "value": "53"
+  },
+  "17": {
+    "stat_name": "ATK_flat",
+    "value": "66"
+  },
+  "18": {
+    "stat_name": "ATK_flat",
+    "value": "92"
+  },
+  "19": {
+    "stat_name": "ATK_flat",
+    "value": "106"
+  },
+  "20": {
+    "stat_name": "ATK_flat",
+    "value": "119"
+  },
+  "21": {
+    "stat_name": "ATK_flat",
+    "value": "132"
+  },
+  "22": {
+    "stat_name": "ATK_flat",
+    "value": "145"
+  },
+  "23": {
+    "stat_name": "ATK_flat",
+    "value": "159"
+  },
+  "24": {
+    "stat_name": "ATK_flat",
+    "value": "172"
+  },
+  "25": {
+    "stat_name": "ATK_flat",
+    "value": "185"
+  },
+  "26": {
+    "stat_name": "ATK_flat",
+    "value": "198"
+  },
+  "27": {
+    "stat_name": "ATK_flat",
+    "value": "212"
+  },
+  "28": {
+    "stat_name": "ATK_flat",
+    "value": "26"
+  },
+  "29": {
+    "stat_name": "ATK_flat",
+    "value": "34"
+  },
+  "30": {
+    "stat_name": "ATK_flat",
+    "value": "43"
+  },
+  "31": {
+    "stat_name": "ATK_flat",
+    "value": "52"
+  },
+  "32": {
+    "stat_name": "ATK_flat",
+    "value": "60"
+  },
+  "33": {
+    "stat_name": "ATK_flat",
+    "value": "69"
+  },
+  "34": {
+    "stat_name": "ATK_flat",
+    "value": "78"
+  },
+  "35": {
+    "stat_name": "ATK_flat",
+    "value": "86"
+  },
+  "36": {
+    "stat_name": "ATK_flat",
+    "value": "95"
+  },
+  "37": {
+    "stat_name": "ATK_flat",
+    "value": "104"
+  },
+  "38": {
+    "stat_name": "HP_flat",
+    "value": "550"
+  },
+  "39": {
+    "stat_name": "HP_flat",
+    "value": "660"
+  },
+  "40": {
+    "stat_name": "HP_flat",
+    "value": "770"
+  },
+  "41": {
+    "stat_name": "HP_flat",
+    "value": "880"
+  },
+  "42": {
+    "stat_name": "HP_flat",
+    "value": "990"
+  },
+  "43": {
+    "stat_name": "HP_flat",
+    "value": "1100"
+  },
+  "44": {
+    "stat_name": "HP_flat",
+    "value": "1210"
+  },
+  "45": {
+    "stat_name": "HP_flat",
+    "value": "1320"
+  },
+  "46": {
+    "stat_name": "HP_flat",
+    "value": "1430"
+  },
+  "47": {
+    "stat_name": "HP_flat",
+    "value": "1540"
+  },
+  "48": {
+    "stat_name": "HP_flat",
+    "value": "1650"
+  },
+  "49": {
+    "stat_name": "HP_flat",
+    "value": "1760"
+  },
+  "50": {
+    "stat_name": "HP_flat",
+    "value": "1870"
+  },
+  "51": {
+    "stat_name": "HP_flat",
+    "value": "1980"
+  },
+  "52": {
+    "stat_name": "HP_flat",
+    "value": "2090"
+  },
+  "53": {
+    "stat_name": "HP_flat",
+    "value": "2200"
+  },
+  "54": {
+    "stat_name": "HP_flat",
+    "value": "367"
+  },
+  "55": {
+    "stat_name": "HP_flat",
+    "value": "458"
+  },
+  "56": {
+    "stat_name": "HP_flat",
+    "value": "642"
+  },
+  "57": {
+    "stat_name": "HP_flat",
+    "value": "734"
+  },
+  "58": {
+    "stat_name": "HP_flat",
+    "value": "825"
+  },
+  "59": {
+    "stat_name": "HP_flat",
+    "value": "917"
+  },
+  "60": {
+    "stat_name": "HP_flat",
+    "value": "1009"
+  },
+  "61": {
+    "stat_name": "HP_flat",
+    "value": "1101"
+  },
+  "62": {
+    "stat_name": "HP_flat",
+    "value": "1192"
+  },
+  "63": {
+    "stat_name": "HP_flat",
+    "value": "1284"
+  },
+  "64": {
+    "stat_name": "HP_flat",
+    "value": "1376"
+  },
+  "65": {
+    "stat_name": "HP_flat",
+    "value": "1468"
+  },
+  "66": {
+    "stat_name": "HP_flat",
+    "value": "183"
+  },
+  "67": {
+    "stat_name": "HP_flat",
+    "value": "244"
+  },
+  "68": {
+    "stat_name": "HP_flat",
+    "value": "305"
+  },
+  "69": {
+    "stat_name": "HP_flat",
+    "value": "366"
+  },
+  "70": {
+    "stat_name": "HP_flat",
+    "value": "427"
+  },
+  "71": {
+    "stat_name": "HP_flat",
+    "value": "488"
+  },
+  "72": {
+    "stat_name": "HP_flat",
+    "value": "549"
+  },
+  "73": {
+    "stat_name": "HP_flat",
+    "value": "610"
+  },
+  "74": {
+    "stat_name": "HP_flat",
+    "value": "671"
+  },
+  "75": {
+    "stat_name": "HP_flat",
+    "value": "732"
+  },
+  "76": {
+    "stat_name": "DEF_flat",
+    "value": "46"
+  },
+  "77": {
+    "stat_name": "DEF_flat",
+    "value": "55"
+  },
+  "78": {
+    "stat_name": "DEF_flat",
+    "value": "64"
+  },
+  "79": {
+    "stat_name": "DEF_flat",
+    "value": "73"
+  },
+  "80": {
+    "stat_name": "DEF_flat",
+    "value": "82"
+  },
+  "81": {
+    "stat_name": "DEF_flat",
+    "value": "92"
+  },
+  "82": {
+    "stat_name": "DEF_flat",
+    "value": "101"
+  },
+  "83": {
+    "stat_name": "DEF_flat",
+    "value": "110"
+  },
+  "84": {
+    "stat_name": "DEF_flat",
+    "value": "119"
+  },
+  "85": {
+    "stat_name": "DEF_flat",
+    "value": "128"
+  },
+  "86": {
+    "stat_name": "DEF_flat",
+    "value": "138"
+  },
+  "87": {
+    "stat_name": "DEF_flat",
+    "value": "147"
+  },
+  "88": {
+    "stat_name": "DEF_flat",
+    "value": "156"
+  },
+  "89": {
+    "stat_name": "DEF_flat",
+    "value": "165"
+  },
+  "90": {
+    "stat_name": "DEF_flat",
+    "value": "174"
+  },
+  "91": {
+    "stat_name": "DEF_flat",
+    "value": "184"
+  },
+  "92": {
+    "stat_name": "DEF_flat",
+    "value": "31"
+  },
+  "93": {
+    "stat_name": "DEF_flat",
+    "value": "38"
+  },
+  "94": {
+    "stat_name": "DEF_flat",
+    "value": "54"
+  },
+  "95": {
+    "stat_name": "DEF_flat",
+    "value": "62"
+  },
+  "96": {
+    "stat_name": "DEF_flat",
+    "value": "69"
+  },
+  "97": {
+    "stat_name": "DEF_flat",
+    "value": "77"
+  },
+  "98": {
+    "stat_name": "DEF_flat",
+    "value": "85"
+  },
+  "99": {
+    "stat_name": "DEF_flat",
+    "value": "93"
+  },
+  "100": {
+    "stat_name": "DEF_flat",
+    "value": "100"
+  },
+  "101": {
+    "stat_name": "DEF_flat",
+    "value": "108"
+  },
+  "102": {
+    "stat_name": "DEF_flat",
+    "value": "116"
+  },
+  "103": {
+    "stat_name": "DEF_flat",
+    "value": "124"
+  },
+  "104": {
+    "stat_name": "DEF_flat",
+    "value": "15"
+  },
+  "105": {
+    "stat_name": "DEF_flat",
+    "value": "20"
+  },
+  "106": {
+    "stat_name": "DEF_flat",
+    "value": "25"
+  },
+  "107": {
+    "stat_name": "DEF_flat",
+    "value": "30"
+  },
+  "108": {
+    "stat_name": "DEF_flat",
+    "value": "35"
+  },
+  "109": {
+    "stat_name": "DEF_flat",
+    "value": "40"
+  },
+  "110": {
+    "stat_name": "DEF_flat",
+    "value": "45"
+  },
+  "111": {
+    "stat_name": "DEF_flat",
+    "value": "50"
+  },
+  "112": {
+    "stat_name": "DEF_flat",
+    "value": "60"
+  },
+  "113": {
+    "stat_name": "ATK_percent",
+    "value": "7.5%"
+  },
+  "114": {
+    "stat_name": "ATK_percent",
+    "value": "9%"
+  },
+  "115": {
+    "stat_name": "ATK_percent",
+    "value": "10.5%"
+  },
+  "116": {
+    "stat_name": "ATK_percent",
+    "value": "12%"
+  },
+  "117": {
+    "stat_name": "ATK_percent",
+    "value": "13.5%"
+  },
+  "118": {
+    "stat_name": "ATK_percent",
+    "value": "15%"
+  },
+  "119": {
+    "stat_name": "ATK_percent",
+    "value": "16.5%"
+  },
+  "120": {
+    "stat_name": "ATK_percent",
+    "value": "18%"
+  },
+  "121": {
+    "stat_name": "ATK_percent",
+    "value": "19.5%"
+  },
+  "122": {
+    "stat_name": "ATK_percent",
+    "value": "21%"
+  },
+  "123": {
+    "stat_name": "ATK_percent",
+    "value": "22.5%"
+  },
+  "124": {
+    "stat_name": "ATK_percent",
+    "value": "24%"
+  },
+  "125": {
+    "stat_name": "ATK_percent",
+    "value": "25.5%"
+  },
+  "126": {
+    "stat_name": "ATK_percent",
+    "value": "27%"
+  },
+  "127": {
+    "stat_name": "ATK_percent",
+    "value": "28.5%"
+  },
+  "128": {
+    "stat_name": "ATK_percent",
+    "value": "30%"
+  },
+  "129": {
+    "stat_name": "ATK_percent",
+    "value": "5%"
+  },
+  "130": {
+    "stat_name": "ATK_percent",
+    "value": "6.2%"
+  },
+  "131": {
+    "stat_name": "ATK_percent",
+    "value": "8.8%"
+  },
+  "132": {
+    "stat_name": "ATK_percent",
+    "value": "10%"
+  },
+  "133": {
+    "stat_name": "ATK_percent",
+    "value": "11.2%"
+  },
+  "134": {
+    "stat_name": "ATK_percent",
+    "value": "12.5%"
+  },
+  "135": {
+    "stat_name": "ATK_percent",
+    "value": "13.8%"
+  },
+  "136": {
+    "stat_name": "ATK_percent",
+    "value": "16.2%"
+  },
+  "137": {
+    "stat_name": "ATK_percent",
+    "value": "17.5%"
+  },
+  "138": {
+    "stat_name": "ATK_percent",
+    "value": "18.8%"
+  },
+  "139": {
+    "stat_name": "ATK_percent",
+    "value": "20%"
+  },
+  "140": {
+    "stat_name": "ATK_percent",
+    "value": "2.5%"
+  },
+  "141": {
+    "stat_name": "ATK_percent",
+    "value": "3.3%"
+  },
+  "142": {
+    "stat_name": "ATK_percent",
+    "value": "4.2%"
+  },
+  "143": {
+    "stat_name": "ATK_percent",
+    "value": "5.8%"
+  },
+  "144": {
+    "stat_name": "ATK_percent",
+    "value": "6.7%"
+  },
+  "145": {
+    "stat_name": "ATK_percent",
+    "value": "8.3%"
+  },
+  "146": {
+    "stat_name": "ATK_percent",
+    "value": "9.2%"
+  },
+  "147": {
+    "stat_name": "HP_percent",
+    "value": "7.5%"
+  },
+  "148": {
+    "stat_name": "HP_percent",
+    "value": "9%"
+  },
+  "149": {
+    "stat_name": "HP_percent",
+    "value": "10.5%"
+  },
+  "150": {
+    "stat_name": "HP_percent",
+    "value": "12%"
+  },
+  "151": {
+    "stat_name": "HP_percent",
+    "value": "13.5%"
+  },
+  "152": {
+    "stat_name": "HP_percent",
+    "value": "15%"
+  },
+  "153": {
+    "stat_name": "HP_percent",
+    "value": "16.5%"
+  },
+  "154": {
+    "stat_name": "HP_percent",
+    "value": "18%"
+  },
+  "155": {
+    "stat_name": "HP_percent",
+    "value": "19.5%"
+  },
+  "156": {
+    "stat_name": "HP_percent",
+    "value": "21%"
+  },
+  "157": {
+    "stat_name": "HP_percent",
+    "value": "22.5%"
+  },
+  "158": {
+    "stat_name": "HP_percent",
+    "value": "24%"
+  },
+  "159": {
+    "stat_name": "HP_percent",
+    "value": "25.5%"
+  },
+  "160": {
+    "stat_name": "HP_percent",
+    "value": "27%"
+  },
+  "161": {
+    "stat_name": "HP_percent",
+    "value": "28.5%"
+  },
+  "162": {
+    "stat_name": "HP_percent",
+    "value": "30%"
+  },
+  "163": {
+    "stat_name": "HP_percent",
+    "value": "5%"
+  },
+  "164": {
+    "stat_name": "HP_percent",
+    "value": "6.2%"
+  },
+  "165": {
+    "stat_name": "HP_percent",
+    "value": "8.8%"
+  },
+  "166": {
+    "stat_name": "HP_percent",
+    "value": "10%"
+  },
+  "167": {
+    "stat_name": "HP_percent",
+    "value": "11.2%"
+  },
+  "168": {
+    "stat_name": "HP_percent",
+    "value": "12.5%"
+  },
+  "169": {
+    "stat_name": "HP_percent",
+    "value": "13.8%"
+  },
+  "170": {
+    "stat_name": "HP_percent",
+    "value": "16.2%"
+  },
+  "171": {
+    "stat_name": "HP_percent",
+    "value": "17.5%"
+  },
+  "172": {
+    "stat_name": "HP_percent",
+    "value": "18.8%"
+  },
+  "173": {
+    "stat_name": "HP_percent",
+    "value": "20%"
+  },
+  "174": {
+    "stat_name": "HP_percent",
+    "value": "2.5%"
+  },
+  "175": {
+    "stat_name": "HP_percent",
+    "value": "3.3%"
+  },
+  "176": {
+    "stat_name": "HP_percent",
+    "value": "4.2%"
+  },
+  "177": {
+    "stat_name": "HP_percent",
+    "value": "5.8%"
+  },
+  "178": {
+    "stat_name": "HP_percent",
+    "value": "6.7%"
+  },
+  "179": {
+    "stat_name": "HP_percent",
+    "value": "8.3%"
+  },
+  "180": {
+    "stat_name": "HP_percent",
+    "value": "9.2%"
+  },
+  "181": {
+    "stat_name": "DEF_percent",
+    "value": "12%"
+  },
+  "182": {
+    "stat_name": "DEF_percent",
+    "value": "14.4%"
+  },
+  "183": {
+    "stat_name": "DEF_percent",
+    "value": "16.8%"
+  },
+  "184": {
+    "stat_name": "DEF_percent",
+    "value": "19.2%"
+  },
+  "185": {
+    "stat_name": "DEF_percent",
+    "value": "21.6%"
+  },
+  "186": {
+    "stat_name": "DEF_percent",
+    "value": "24%"
+  },
+  "187": {
+    "stat_name": "DEF_percent",
+    "value": "26.4%"
+  },
+  "188": {
+    "stat_name": "DEF_percent",
+    "value": "28.8%"
+  },
+  "189": {
+    "stat_name": "DEF_percent",
+    "value": "31.2%"
+  },
+  "190": {
+    "stat_name": "DEF_percent",
+    "value": "33.6%"
+  },
+  "191": {
+    "stat_name": "DEF_percent",
+    "value": "36%"
+  },
+  "192": {
+    "stat_name": "DEF_percent",
+    "value": "38.4%"
+  },
+  "193": {
+    "stat_name": "DEF_percent",
+    "value": "40.8%"
+  },
+  "194": {
+    "stat_name": "DEF_percent",
+    "value": "43.2%"
+  },
+  "195": {
+    "stat_name": "DEF_percent",
+    "value": "45.6%"
+  },
+  "196": {
+    "stat_name": "DEF_percent",
+    "value": "48%"
+  },
+  "197": {
+    "stat_name": "DEF_percent",
+    "value": "8%"
+  },
+  "198": {
+    "stat_name": "DEF_percent",
+    "value": "10%"
+  },
+  "199": {
+    "stat_name": "DEF_percent",
+    "value": "14%"
+  },
+  "200": {
+    "stat_name": "DEF_percent",
+    "value": "16%"
+  },
+  "201": {
+    "stat_name": "DEF_percent",
+    "value": "18%"
+  },
+  "202": {
+    "stat_name": "DEF_percent",
+    "value": "20%"
+  },
+  "203": {
+    "stat_name": "DEF_percent",
+    "value": "22%"
+  },
+  "204": {
+    "stat_name": "DEF_percent",
+    "value": "26%"
+  },
+  "205": {
+    "stat_name": "DEF_percent",
+    "value": "28%"
+  },
+  "206": {
+    "stat_name": "DEF_percent",
+    "value": "30%"
+  },
+  "207": {
+    "stat_name": "DEF_percent",
+    "value": "32%"
+  },
+  "208": {
+    "stat_name": "DEF_percent",
+    "value": "4%"
+  },
+  "209": {
+    "stat_name": "DEF_percent",
+    "value": "5.3%"
+  },
+  "210": {
+    "stat_name": "DEF_percent",
+    "value": "6.7%"
+  },
+  "211": {
+    "stat_name": "DEF_percent",
+    "value": "9.3%"
+  },
+  "212": {
+    "stat_name": "DEF_percent",
+    "value": "10.7%"
+  },
+  "213": {
+    "stat_name": "DEF_percent",
+    "value": "13.3%"
+  },
+  "214": {
+    "stat_name": "DEF_percent",
+    "value": "14.7%"
+  },
+  "215": {
+    "stat_name": "CRIT Rate",
+    "value": "6%"
+  },
+  "216": {
+    "stat_name": "CRIT Rate",
+    "value": "7.2%"
+  },
+  "217": {
+    "stat_name": "CRIT Rate",
+    "value": "8.4%"
+  },
+  "218": {
+    "stat_name": "CRIT Rate",
+    "value": "9.6%"
+  },
+  "219": {
+    "stat_name": "CRIT Rate",
+    "value": "10.8%"
+  },
+  "220": {
+    "stat_name": "CRIT Rate",
+    "value": "12%"
+  },
+  "221": {
+    "stat_name": "CRIT Rate",
+    "value": "13.2%"
+  },
+  "222": {
+    "stat_name": "CRIT Rate",
+    "value": "14.4%"
+  },
+  "223": {
+    "stat_name": "CRIT Rate",
+    "value": "15.6%"
+  },
+  "224": {
+    "stat_name": "CRIT Rate",
+    "value": "16.8%"
+  },
+  "225": {
+    "stat_name": "CRIT Rate",
+    "value": "18%"
+  },
+  "226": {
+    "stat_name": "CRIT Rate",
+    "value": "19.2%"
+  },
+  "227": {
+    "stat_name": "CRIT Rate",
+    "value": "20.4%"
+  },
+  "228": {
+    "stat_name": "CRIT Rate",
+    "value": "21.6%"
+  },
+  "229": {
+    "stat_name": "CRIT Rate",
+    "value": "22.8%"
+  },
+  "230": {
+    "stat_name": "CRIT Rate",
+    "value": "24%"
+  },
+  "231": {
+    "stat_name": "CRIT Rate",
+    "value": "4%"
+  },
+  "232": {
+    "stat_name": "CRIT Rate",
+    "value": "5%"
+  },
+  "233": {
+    "stat_name": "CRIT Rate",
+    "value": "7%"
+  },
+  "234": {
+    "stat_name": "CRIT Rate",
+    "value": "8%"
+  },
+  "235": {
+    "stat_name": "CRIT Rate",
+    "value": "9%"
+  },
+  "236": {
+    "stat_name": "CRIT Rate",
+    "value": "10%"
+  },
+  "237": {
+    "stat_name": "CRIT Rate",
+    "value": "11%"
+  },
+  "238": {
+    "stat_name": "CRIT Rate",
+    "value": "13%"
+  },
+  "239": {
+    "stat_name": "CRIT Rate",
+    "value": "14%"
+  },
+  "240": {
+    "stat_name": "CRIT Rate",
+    "value": "15%"
+  },
+  "241": {
+    "stat_name": "CRIT Rate",
+    "value": "16%"
+  },
+  "242": {
+    "stat_name": "CRIT Rate",
+    "value": "2%"
+  },
+  "243": {
+    "stat_name": "CRIT Rate",
+    "value": "2.7%"
+  },
+  "244": {
+    "stat_name": "CRIT Rate",
+    "value": "3.3%"
+  },
+  "245": {
+    "stat_name": "CRIT Rate",
+    "value": "4.7%"
+  },
+  "246": {
+    "stat_name": "CRIT Rate",
+    "value": "5.3%"
+  },
+  "247": {
+    "stat_name": "CRIT Rate",
+    "value": "6.7%"
+  },
+  "248": {
+    "stat_name": "CRIT Rate",
+    "value": "7.3%"
+  },
+  "249": {
+    "stat_name": "CRIT DMG",
+    "value": "12%"
+  },
+  "250": {
+    "stat_name": "CRIT DMG",
+    "value": "14.4%"
+  },
+  "251": {
+    "stat_name": "CRIT DMG",
+    "value": "16.8%"
+  },
+  "252": {
+    "stat_name": "CRIT DMG",
+    "value": "19.2%"
+  },
+  "253": {
+    "stat_name": "CRIT DMG",
+    "value": "21.6%"
+  },
+  "254": {
+    "stat_name": "CRIT DMG",
+    "value": "24%"
+  },
+  "255": {
+    "stat_name": "CRIT DMG",
+    "value": "26.4%"
+  },
+  "256": {
+    "stat_name": "CRIT DMG",
+    "value": "28.8%"
+  },
+  "257": {
+    "stat_name": "CRIT DMG",
+    "value": "31.2%"
+  },
+  "258": {
+    "stat_name": "CRIT DMG",
+    "value": "33.6%"
+  },
+  "259": {
+    "stat_name": "CRIT DMG",
+    "value": "36%"
+  },
+  "260": {
+    "stat_name": "CRIT DMG",
+    "value": "38.4%"
+  },
+  "261": {
+    "stat_name": "CRIT DMG",
+    "value": "40.8%"
+  },
+  "262": {
+    "stat_name": "CRIT DMG",
+    "value": "43.2%"
+  },
+  "263": {
+    "stat_name": "CRIT DMG",
+    "value": "45.6%"
+  },
+  "264": {
+    "stat_name": "CRIT DMG",
+    "value": "48%"
+  },
+  "265": {
+    "stat_name": "CRIT DMG",
+    "value": "8%"
+  },
+  "266": {
+    "stat_name": "CRIT DMG",
+    "value": "10%"
+  },
+  "267": {
+    "stat_name": "CRIT DMG",
+    "value": "14%"
+  },
+  "268": {
+    "stat_name": "CRIT DMG",
+    "value": "16%"
+  },
+  "269": {
+    "stat_name": "CRIT DMG",
+    "value": "18%"
+  },
+  "270": {
+    "stat_name": "CRIT DMG",
+    "value": "20%"
+  },
+  "271": {
+    "stat_name": "CRIT DMG",
+    "value": "22%"
+  },
+  "272": {
+    "stat_name": "CRIT DMG",
+    "value": "26%"
+  },
+  "273": {
+    "stat_name": "CRIT DMG",
+    "value": "28%"
+  },
+  "274": {
+    "stat_name": "CRIT DMG",
+    "value": "30%"
+  },
+  "275": {
+    "stat_name": "CRIT DMG",
+    "value": "32%"
+  },
+  "276": {
+    "stat_name": "CRIT DMG",
+    "value": "4%"
+  },
+  "277": {
+    "stat_name": "CRIT DMG",
+    "value": "5.3%"
+  },
+  "278": {
+    "stat_name": "CRIT DMG",
+    "value": "6.7%"
+  },
+  "279": {
+    "stat_name": "CRIT DMG",
+    "value": "9.3%"
+  },
+  "280": {
+    "stat_name": "CRIT DMG",
+    "value": "10.7%"
+  },
+  "281": {
+    "stat_name": "CRIT DMG",
+    "value": "13.3%"
+  },
+  "282": {
+    "stat_name": "CRIT DMG",
+    "value": "14.7%"
+  },
+  "283": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "23"
+  },
+  "284": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "27"
+  },
+  "285": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "32"
+  },
+  "286": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "36"
+  },
+  "287": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "41"
+  },
+  "288": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "46"
+  },
+  "289": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "50"
+  },
+  "290": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "55"
+  },
+  "291": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "59"
+  },
+  "292": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "64"
+  },
+  "293": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "69"
+  },
+  "294": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "73"
+  },
+  "295": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "78"
+  },
+  "296": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "82"
+  },
+  "297": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "87"
+  },
+  "298": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "92"
+  },
+  "299": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "15"
+  },
+  "300": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "18"
+  },
+  "301": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "22"
+  },
+  "302": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "26"
+  },
+  "303": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "30"
+  },
+  "304": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "33"
+  },
+  "305": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "37"
+  },
+  "306": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "45"
+  },
+  "307": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "48"
+  },
+  "308": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "52"
+  },
+  "309": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "56"
+  },
+  "310": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "60"
+  },
+  "311": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "8"
+  },
+  "312": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "10"
+  },
+  "313": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "13"
+  },
+  "314": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "16"
+  },
+  "315": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "21"
+  },
+  "316": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "24"
+  },
+  "317": {
+    "stat_name": "Anomaly Proficiency",
+    "value": "29"
+  },
+  "318": {
+    "stat_name": "PEN Ratio",
+    "value": "6%"
+  },
+  "319": {
+    "stat_name": "PEN Ratio",
+    "value": "7.2%"
+  },
+  "320": {
+    "stat_name": "PEN Ratio",
+    "value": "8.4%"
+  },
+  "321": {
+    "stat_name": "PEN Ratio",
+    "value": "9.6%"
+  },
+  "322": {
+    "stat_name": "PEN Ratio",
+    "value": "10.8%"
+  },
+  "323": {
+    "stat_name": "PEN Ratio",
+    "value": "12%"
+  },
+  "324": {
+    "stat_name": "PEN Ratio",
+    "value": "13.2%"
+  },
+  "325": {
+    "stat_name": "PEN Ratio",
+    "value": "14.4%"
+  },
+  "326": {
+    "stat_name": "PEN Ratio",
+    "value": "15.6%"
+  },
+  "327": {
+    "stat_name": "PEN Ratio",
+    "value": "16.8%"
+  },
+  "328": {
+    "stat_name": "PEN Ratio",
+    "value": "18%"
+  },
+  "329": {
+    "stat_name": "PEN Ratio",
+    "value": "19.2%"
+  },
+  "330": {
+    "stat_name": "PEN Ratio",
+    "value": "20.4%"
+  },
+  "331": {
+    "stat_name": "PEN Ratio",
+    "value": "21.6%"
+  },
+  "332": {
+    "stat_name": "PEN Ratio",
+    "value": "22.8%"
+  },
+  "333": {
+    "stat_name": "PEN Ratio",
+    "value": "24%"
+  },
+  "334": {
+    "stat_name": "PEN Ratio",
+    "value": "4%"
+  },
+  "335": {
+    "stat_name": "PEN Ratio",
+    "value": "5%"
+  },
+  "336": {
+    "stat_name": "PEN Ratio",
+    "value": "7%"
+  },
+  "337": {
+    "stat_name": "PEN Ratio",
+    "value": "8%"
+  },
+  "338": {
+    "stat_name": "PEN Ratio",
+    "value": "9%"
+  },
+  "339": {
+    "stat_name": "PEN Ratio",
+    "value": "10%"
+  },
+  "340": {
+    "stat_name": "PEN Ratio",
+    "value": "11%"
+  },
+  "341": {
+    "stat_name": "PEN Ratio",
+    "value": "13%"
+  },
+  "342": {
+    "stat_name": "PEN Ratio",
+    "value": "14%"
+  },
+  "343": {
+    "stat_name": "PEN Ratio",
+    "value": "15%"
+  },
+  "344": {
+    "stat_name": "PEN Ratio",
+    "value": "16%"
+  },
+  "345": {
+    "stat_name": "PEN Ratio",
+    "value": "2%"
+  },
+  "346": {
+    "stat_name": "PEN Ratio",
+    "value": "2.7%"
+  },
+  "347": {
+    "stat_name": "PEN Ratio",
+    "value": "3.3%"
+  },
+  "348": {
+    "stat_name": "PEN Ratio",
+    "value": "4.7%"
+  },
+  "349": {
+    "stat_name": "PEN Ratio",
+    "value": "5.3%"
+  },
+  "350": {
+    "stat_name": "PEN Ratio",
+    "value": "6.7%"
+  },
+  "351": {
+    "stat_name": "PEN Ratio",
+    "value": "7.3%"
+  },
+  "352": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "7.5%"
+  },
+  "353": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "9%"
+  },
+  "354": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "10.5%"
+  },
+  "355": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "12%"
+  },
+  "356": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "13.5%"
+  },
+  "357": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "15%"
+  },
+  "358": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "16.5%"
+  },
+  "359": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "18%"
+  },
+  "360": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "19.5%"
+  },
+  "361": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "21%"
+  },
+  "362": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "22.5%"
+  },
+  "363": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "24%"
+  },
+  "364": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "25.5%"
+  },
+  "365": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "27%"
+  },
+  "366": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "28.5%"
+  },
+  "367": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "30%"
+  },
+  "368": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "5%"
+  },
+  "369": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "6.2%"
+  },
+  "370": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "8.8%"
+  },
+  "371": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "10%"
+  },
+  "372": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "11.2%"
+  },
+  "373": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "12.5%"
+  },
+  "374": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "13.8%"
+  },
+  "375": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "16.2%"
+  },
+  "376": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "17.5%"
+  },
+  "377": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "18.8%"
+  },
+  "378": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "20%"
+  },
+  "379": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "2.5%"
+  },
+  "380": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "3.3%"
+  },
+  "381": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "4.2%"
+  },
+  "382": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "5.8%"
+  },
+  "383": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "6.7%"
+  },
+  "384": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "8.3%"
+  },
+  "385": {
+    "stat_name": "Physical DMG Bonus",
+    "value": "9.2%"
+  },
+  "386": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "7.5%"
+  },
+  "387": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "9%"
+  },
+  "388": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "10.5%"
+  },
+  "389": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "12%"
+  },
+  "390": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "13.5%"
+  },
+  "391": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "15%"
+  },
+  "392": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "16.5%"
+  },
+  "393": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "18%"
+  },
+  "394": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "19.5%"
+  },
+  "395": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "21%"
+  },
+  "396": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "22.5%"
+  },
+  "397": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "24%"
+  },
+  "398": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "25.5%"
+  },
+  "399": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "27%"
+  },
+  "400": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "28.5%"
+  },
+  "401": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "30%"
+  },
+  "402": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "5%"
+  },
+  "403": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "6.2%"
+  },
+  "404": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "8.8%"
+  },
+  "405": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "10%"
+  },
+  "406": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "11.2%"
+  },
+  "407": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "12.5%"
+  },
+  "408": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "13.8%"
+  },
+  "409": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "16.2%"
+  },
+  "410": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "17.5%"
+  },
+  "411": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "18.8%"
+  },
+  "412": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "20%"
+  },
+  "413": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "2.5%"
+  },
+  "414": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "3.3%"
+  },
+  "415": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "4.2%"
+  },
+  "416": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "5.8%"
+  },
+  "417": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "6.7%"
+  },
+  "418": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "8.3%"
+  },
+  "419": {
+    "stat_name": "Fire DMG Bonus",
+    "value": "9.2%"
+  },
+  "420": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "7.5%"
+  },
+  "421": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "9%"
+  },
+  "422": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "10.5%"
+  },
+  "423": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "12%"
+  },
+  "424": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "13.5%"
+  },
+  "425": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "15%"
+  },
+  "426": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "16.5%"
+  },
+  "427": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "18%"
+  },
+  "428": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "19.5%"
+  },
+  "429": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "21%"
+  },
+  "430": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "22.5%"
+  },
+  "431": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "24%"
+  },
+  "432": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "25.5%"
+  },
+  "433": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "27%"
+  },
+  "434": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "28.5%"
+  },
+  "435": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "30%"
+  },
+  "436": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "5%"
+  },
+  "437": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "6.2%"
+  },
+  "438": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "8.8%"
+  },
+  "439": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "10%"
+  },
+  "440": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "11.2%"
+  },
+  "441": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "12.5%"
+  },
+  "442": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "13.8%"
+  },
+  "443": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "16.2%"
+  },
+  "444": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "17.5%"
+  },
+  "445": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "18.8%"
+  },
+  "446": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "20%"
+  },
+  "447": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "2.5%"
+  },
+  "448": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "3.3%"
+  },
+  "449": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "4.2%"
+  },
+  "450": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "5.8%"
+  },
+  "451": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "6.7%"
+  },
+  "452": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "8.3%"
+  },
+  "453": {
+    "stat_name": "Ice DMG Bonus",
+    "value": "9.2%"
+  },
+  "454": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "7.5%"
+  },
+  "455": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "9%"
+  },
+  "456": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "10.5%"
+  },
+  "457": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "12%"
+  },
+  "458": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "13.5%"
+  },
+  "459": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "15%"
+  },
+  "460": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "16.5%"
+  },
+  "461": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "18%"
+  },
+  "462": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "19.5%"
+  },
+  "463": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "21%"
+  },
+  "464": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "22.5%"
+  },
+  "465": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "24%"
+  },
+  "466": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "25.5%"
+  },
+  "467": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "27%"
+  },
+  "468": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "28.5%"
+  },
+  "469": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "30%"
+  },
+  "470": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "5%"
+  },
+  "471": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "6.2%"
+  },
+  "472": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "8.8%"
+  },
+  "473": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "10%"
+  },
+  "474": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "11.2%"
+  },
+  "475": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "12.5%"
+  },
+  "476": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "13.8%"
+  },
+  "477": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "16.2%"
+  },
+  "478": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "17.5%"
+  },
+  "479": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "18.8%"
+  },
+  "480": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "20%"
+  },
+  "481": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "2.5%"
+  },
+  "482": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "3.3%"
+  },
+  "483": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "4.2%"
+  },
+  "484": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "5.8%"
+  },
+  "485": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "6.7%"
+  },
+  "486": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "8.3%"
+  },
+  "487": {
+    "stat_name": "Electric DMG Bonus",
+    "value": "9.2%"
+  },
+  "488": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "7.5%"
+  },
+  "489": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "9%"
+  },
+  "490": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "10.5%"
+  },
+  "491": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "12%"
+  },
+  "492": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "13.5%"
+  },
+  "493": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "15%"
+  },
+  "494": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "16.5%"
+  },
+  "495": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "18%"
+  },
+  "496": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "19.5%"
+  },
+  "497": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "21%"
+  },
+  "498": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "22.5%"
+  },
+  "499": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "24%"
+  },
+  "500": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "25.5%"
+  },
+  "501": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "27%"
+  },
+  "502": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "28.5%"
+  },
+  "503": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "30%"
+  },
+  "504": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "5%"
+  },
+  "505": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "6.2%"
+  },
+  "506": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "8.8%"
+  },
+  "507": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "10%"
+  },
+  "508": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "11.2%"
+  },
+  "509": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "12.5%"
+  },
+  "510": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "13.8%"
+  },
+  "511": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "16.2%"
+  },
+  "512": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "17.5%"
+  },
+  "513": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "18.8%"
+  },
+  "514": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "20%"
+  },
+  "515": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "2.5%"
+  },
+  "516": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "3.3%"
+  },
+  "517": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "4.2%"
+  },
+  "518": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "5.8%"
+  },
+  "519": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "6.7%"
+  },
+  "520": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "8.3%"
+  },
+  "521": {
+    "stat_name": "Ether DMG Bonus",
+    "value": "9.2%"
+  },
+  "522": {
+    "stat_name": "Anomaly Mastery",
+    "value": "7.5%"
+  },
+  "523": {
+    "stat_name": "Anomaly Mastery",
+    "value": "9%"
+  },
+  "524": {
+    "stat_name": "Anomaly Mastery",
+    "value": "10.5%"
+  },
+  "525": {
+    "stat_name": "Anomaly Mastery",
+    "value": "12%"
+  },
+  "526": {
+    "stat_name": "Anomaly Mastery",
+    "value": "13.5%"
+  },
+  "527": {
+    "stat_name": "Anomaly Mastery",
+    "value": "15%"
+  },
+  "528": {
+    "stat_name": "Anomaly Mastery",
+    "value": "16.5%"
+  },
+  "529": {
+    "stat_name": "Anomaly Mastery",
+    "value": "18%"
+  },
+  "530": {
+    "stat_name": "Anomaly Mastery",
+    "value": "19.5%"
+  },
+  "531": {
+    "stat_name": "Anomaly Mastery",
+    "value": "21%"
+  },
+  "532": {
+    "stat_name": "Anomaly Mastery",
+    "value": "22.5%"
+  },
+  "533": {
+    "stat_name": "Anomaly Mastery",
+    "value": "24%"
+  },
+  "534": {
+    "stat_name": "Anomaly Mastery",
+    "value": "25.5%"
+  },
+  "535": {
+    "stat_name": "Anomaly Mastery",
+    "value": "27%"
+  },
+  "536": {
+    "stat_name": "Anomaly Mastery",
+    "value": "28.5%"
+  },
+  "537": {
+    "stat_name": "Anomaly Mastery",
+    "value": "30%"
+  },
+  "538": {
+    "stat_name": "Anomaly Mastery",
+    "value": "5%"
+  },
+  "539": {
+    "stat_name": "Anomaly Mastery",
+    "value": "6.2%"
+  },
+  "540": {
+    "stat_name": "Anomaly Mastery",
+    "value": "8.8%"
+  },
+  "541": {
+    "stat_name": "Anomaly Mastery",
+    "value": "10%"
+  },
+  "542": {
+    "stat_name": "Anomaly Mastery",
+    "value": "11.2%"
+  },
+  "543": {
+    "stat_name": "Anomaly Mastery",
+    "value": "12.5%"
+  },
+  "544": {
+    "stat_name": "Anomaly Mastery",
+    "value": "13.8%"
+  },
+  "545": {
+    "stat_name": "Anomaly Mastery",
+    "value": "16.2%"
+  },
+  "546": {
+    "stat_name": "Anomaly Mastery",
+    "value": "17.5%"
+  },
+  "547": {
+    "stat_name": "Anomaly Mastery",
+    "value": "18.8%"
+  },
+  "548": {
+    "stat_name": "Anomaly Mastery",
+    "value": "20%"
+  },
+  "549": {
+    "stat_name": "Anomaly Mastery",
+    "value": "2.5%"
+  },
+  "550": {
+    "stat_name": "Anomaly Mastery",
+    "value": "3.3%"
+  },
+  "551": {
+    "stat_name": "Anomaly Mastery",
+    "value": "4.2%"
+  },
+  "552": {
+    "stat_name": "Anomaly Mastery",
+    "value": "5.8%"
+  },
+  "553": {
+    "stat_name": "Anomaly Mastery",
+    "value": "6.7%"
+  },
+  "554": {
+    "stat_name": "Anomaly Mastery",
+    "value": "8.3%"
+  },
+  "555": {
+    "stat_name": "Anomaly Mastery",
+    "value": "9.2%"
+  },
+  "556": {
+    "stat_name": "Impact",
+    "value": "4.5%"
+  },
+  "557": {
+    "stat_name": "Impact",
+    "value": "5.4%"
+  },
+  "558": {
+    "stat_name": "Impact",
+    "value": "6.3%"
+  },
+  "559": {
+    "stat_name": "Impact",
+    "value": "7.2%"
+  },
+  "560": {
+    "stat_name": "Impact",
+    "value": "8.1%"
+  },
+  "561": {
+    "stat_name": "Impact",
+    "value": "9%"
+  },
+  "562": {
+    "stat_name": "Impact",
+    "value": "9.9%"
+  },
+  "563": {
+    "stat_name": "Impact",
+    "value": "10.8%"
+  },
+  "564": {
+    "stat_name": "Impact",
+    "value": "11.7%"
+  },
+  "565": {
+    "stat_name": "Impact",
+    "value": "12.6%"
+  },
+  "566": {
+    "stat_name": "Impact",
+    "value": "13.5%"
+  },
+  "567": {
+    "stat_name": "Impact",
+    "value": "14.4%"
+  },
+  "568": {
+    "stat_name": "Impact",
+    "value": "15.3%"
+  },
+  "569": {
+    "stat_name": "Impact",
+    "value": "16.2%"
+  },
+  "570": {
+    "stat_name": "Impact",
+    "value": "17.1%"
+  },
+  "571": {
+    "stat_name": "Impact",
+    "value": "18%"
+  },
+  "572": {
+    "stat_name": "Impact",
+    "value": "3%"
+  },
+  "573": {
+    "stat_name": "Impact",
+    "value": "3.8%"
+  },
+  "574": {
+    "stat_name": "Impact",
+    "value": "5.2%"
+  },
+  "575": {
+    "stat_name": "Impact",
+    "value": "6%"
+  },
+  "576": {
+    "stat_name": "Impact",
+    "value": "6.8%"
+  },
+  "577": {
+    "stat_name": "Impact",
+    "value": "7.5%"
+  },
+  "578": {
+    "stat_name": "Impact",
+    "value": "8.2%"
+  },
+  "579": {
+    "stat_name": "Impact",
+    "value": "9.8%"
+  },
+  "580": {
+    "stat_name": "Impact",
+    "value": "10.5%"
+  },
+  "581": {
+    "stat_name": "Impact",
+    "value": "11.2%"
+  },
+  "582": {
+    "stat_name": "Impact",
+    "value": "12%"
+  },
+  "583": {
+    "stat_name": "Impact",
+    "value": "1.5%"
+  },
+  "584": {
+    "stat_name": "Impact",
+    "value": "2%"
+  },
+  "585": {
+    "stat_name": "Impact",
+    "value": "2.5%"
+  },
+  "586": {
+    "stat_name": "Impact",
+    "value": "3.5%"
+  },
+  "587": {
+    "stat_name": "Impact",
+    "value": "4%"
+  },
+  "588": {
+    "stat_name": "Impact",
+    "value": "5%"
+  },
+  "589": {
+    "stat_name": "Impact",
+    "value": "5.5%"
+  },
+  "590": {
+    "stat_name": "Energy Regen",
+    "value": "15%"
+  },
+  "591": {
+    "stat_name": "Energy Regen",
+    "value": "18%"
+  },
+  "592": {
+    "stat_name": "Energy Regen",
+    "value": "21%"
+  },
+  "593": {
+    "stat_name": "Energy Regen",
+    "value": "24%"
+  },
+  "594": {
+    "stat_name": "Energy Regen",
+    "value": "27%"
+  },
+  "595": {
+    "stat_name": "Energy Regen",
+    "value": "30%"
+  },
+  "596": {
+    "stat_name": "Energy Regen",
+    "value": "33%"
+  },
+  "597": {
+    "stat_name": "Energy Regen",
+    "value": "36%"
+  },
+  "598": {
+    "stat_name": "Energy Regen",
+    "value": "39%"
+  },
+  "599": {
+    "stat_name": "Energy Regen",
+    "value": "42%"
+  },
+  "600": {
+    "stat_name": "Energy Regen",
+    "value": "45%"
+  },
+  "601": {
+    "stat_name": "Energy Regen",
+    "value": "48%"
+  },
+  "602": {
+    "stat_name": "Energy Regen",
+    "value": "51%"
+  },
+  "603": {
+    "stat_name": "Energy Regen",
+    "value": "54%"
+  },
+  "604": {
+    "stat_name": "Energy Regen",
+    "value": "57%"
+  },
+  "605": {
+    "stat_name": "Energy Regen",
+    "value": "60%"
+  },
+  "606": {
+    "stat_name": "Energy Regen",
+    "value": "10%"
+  },
+  "607": {
+    "stat_name": "Energy Regen",
+    "value": "12.5%"
+  },
+  "608": {
+    "stat_name": "Energy Regen",
+    "value": "17.5%"
+  },
+  "609": {
+    "stat_name": "Energy Regen",
+    "value": "20%"
+  },
+  "610": {
+    "stat_name": "Energy Regen",
+    "value": "22.5%"
+  },
+  "611": {
+    "stat_name": "Energy Regen",
+    "value": "25%"
+  },
+  "612": {
+    "stat_name": "Energy Regen",
+    "value": "27.5%"
+  },
+  "613": {
+    "stat_name": "Energy Regen",
+    "value": "32.5%"
+  },
+  "614": {
+    "stat_name": "Energy Regen",
+    "value": "35%"
+  },
+  "615": {
+    "stat_name": "Energy Regen",
+    "value": "37.5%"
+  },
+  "616": {
+    "stat_name": "Energy Regen",
+    "value": "40%"
+  },
+  "617": {
+    "stat_name": "Energy Regen",
+    "value": "5%"
+  },
+  "618": {
+    "stat_name": "Energy Regen",
+    "value": "6.7%"
+  },
+  "619": {
+    "stat_name": "Energy Regen",
+    "value": "8.3%"
+  },
+  "620": {
+    "stat_name": "Energy Regen",
+    "value": "11.7%"
+  },
+  "621": {
+    "stat_name": "Energy Regen",
+    "value": "13.3%"
+  },
+  "622": {
+    "stat_name": "Energy Regen",
+    "value": "16.7%"
+  },
+  "623": {
+    "stat_name": "Energy Regen",
+    "value": "18.3%"
+  }
+}

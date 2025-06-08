@@ -1,0 +1,607 @@
+{
+  "0": {
+    "stat_name": "ATK_flat",
+    "rolls": "",
+    "value": "19"
+  },
+  "1": {
+    "stat_name": "ATK_flat",
+    "rolls": "+1",
+    "value": "38"
+  },
+  "2": {
+    "stat_name": "ATK_flat",
+    "rolls": "+2",
+    "value": "57"
+  },
+  "3": {
+    "stat_name": "ATK_flat",
+    "rolls": "+3",
+    "value": "76"
+  },
+  "4": {
+    "stat_name": "ATK_flat",
+    "rolls": "+4",
+    "value": "95"
+  },
+  "5": {
+    "stat_name": "ATK_flat",
+    "rolls": "+5",
+    "value": "114"
+  },
+  "6": {
+    "stat_name": "ATK_flat",
+    "rolls": "",
+    "value": "13"
+  },
+  "7": {
+    "stat_name": "ATK_flat",
+    "rolls": "+1",
+    "value": "26"
+  },
+  "8": {
+    "stat_name": "ATK_flat",
+    "rolls": "+2",
+    "value": "39"
+  },
+  "9": {
+    "stat_name": "ATK_flat",
+    "rolls": "+3",
+    "value": "52"
+  },
+  "10": {
+    "stat_name": "ATK_flat",
+    "rolls": "",
+    "value": "6"
+  },
+  "11": {
+    "stat_name": "ATK_flat",
+    "rolls": "+1",
+    "value": "12"
+  },
+  "12": {
+    "stat_name": "HP_flat",
+    "rolls": "",
+    "value": "112"
+  },
+  "13": {
+    "stat_name": "HP_flat",
+    "rolls": "+1",
+    "value": "224"
+  },
+  "14": {
+    "stat_name": "HP_flat",
+    "rolls": "+2",
+    "value": "336"
+  },
+  "15": {
+    "stat_name": "HP_flat",
+    "rolls": "+3",
+    "value": "448"
+  },
+  "16": {
+    "stat_name": "HP_flat",
+    "rolls": "+4",
+    "value": "560"
+  },
+  "17": {
+    "stat_name": "HP_flat",
+    "rolls": "+5",
+    "value": "672"
+  },
+  "18": {
+    "stat_name": "HP_flat",
+    "rolls": "",
+    "value": "75"
+  },
+  "19": {
+    "stat_name": "HP_flat",
+    "rolls": "+1",
+    "value": "150"
+  },
+  "20": {
+    "stat_name": "HP_flat",
+    "rolls": "+2",
+    "value": "225"
+  },
+  "21": {
+    "stat_name": "HP_flat",
+    "rolls": "+3",
+    "value": "300"
+  },
+  "22": {
+    "stat_name": "HP_flat",
+    "rolls": "",
+    "value": "37"
+  },
+  "23": {
+    "stat_name": "HP_flat",
+    "rolls": "+1",
+    "value": "74"
+  },
+  "24": {
+    "stat_name": "DEF_flat",
+    "rolls": "",
+    "value": "15"
+  },
+  "25": {
+    "stat_name": "DEF_flat",
+    "rolls": "+1",
+    "value": "30"
+  },
+  "26": {
+    "stat_name": "DEF_flat",
+    "rolls": "+2",
+    "value": "45"
+  },
+  "27": {
+    "stat_name": "DEF_flat",
+    "rolls": "+3",
+    "value": "60"
+  },
+  "28": {
+    "stat_name": "DEF_flat",
+    "rolls": "+4",
+    "value": "75"
+  },
+  "29": {
+    "stat_name": "DEF_flat",
+    "rolls": "+5",
+    "value": "90"
+  },
+  "30": {
+    "stat_name": "DEF_flat",
+    "rolls": "",
+    "value": "10"
+  },
+  "31": {
+    "stat_name": "DEF_flat",
+    "rolls": "+1",
+    "value": "20"
+  },
+  "32": {
+    "stat_name": "DEF_flat",
+    "rolls": "+2",
+    "value": "30"
+  },
+  "33": {
+    "stat_name": "DEF_flat",
+    "rolls": "+3",
+    "value": "40"
+  },
+  "34": {
+    "stat_name": "DEF_flat",
+    "rolls": "",
+    "value": "5"
+  },
+  "35": {
+    "stat_name": "DEF_flat",
+    "rolls": "+1",
+    "value": "10"
+  },
+  "36": {
+    "stat_name": "ATK_percent",
+    "rolls": "",
+    "value": "3%"
+  },
+  "37": {
+    "stat_name": "ATK_percent",
+    "rolls": "+1",
+    "value": "6%"
+  },
+  "38": {
+    "stat_name": "ATK_percent",
+    "rolls": "+2",
+    "value": "9%"
+  },
+  "39": {
+    "stat_name": "ATK_percent",
+    "rolls": "+3",
+    "value": "12%"
+  },
+  "40": {
+    "stat_name": "ATK_percent",
+    "rolls": "+4",
+    "value": "15%"
+  },
+  "41": {
+    "stat_name": "ATK_percent",
+    "rolls": "+5",
+    "value": "18%"
+  },
+  "42": {
+    "stat_name": "ATK_percent",
+    "rolls": "",
+    "value": "2%"
+  },
+  "43": {
+    "stat_name": "ATK_percent",
+    "rolls": "+1",
+    "value": "4%"
+  },
+  "44": {
+    "stat_name": "ATK_percent",
+    "rolls": "+2",
+    "value": "6%"
+  },
+  "45": {
+    "stat_name": "ATK_percent",
+    "rolls": "+3",
+    "value": "8%"
+  },
+  "46": {
+    "stat_name": "ATK_percent",
+    "rolls": "",
+    "value": "1%"
+  },
+  "47": {
+    "stat_name": "ATK_percent",
+    "rolls": "+1",
+    "value": "2%"
+  },
+  "48": {
+    "stat_name": "HP_percent",
+    "rolls": "",
+    "value": "3%"
+  },
+  "49": {
+    "stat_name": "HP_percent",
+    "rolls": "+1",
+    "value": "6%"
+  },
+  "50": {
+    "stat_name": "HP_percent",
+    "rolls": "+2",
+    "value": "9%"
+  },
+  "51": {
+    "stat_name": "HP_percent",
+    "rolls": "+3",
+    "value": "12%"
+  },
+  "52": {
+    "stat_name": "HP_percent",
+    "rolls": "+4",
+    "value": "15%"
+  },
+  "53": {
+    "stat_name": "HP_percent",
+    "rolls": "+5",
+    "value": "18%"
+  },
+  "54": {
+    "stat_name": "HP_percent",
+    "rolls": "",
+    "value": "2%"
+  },
+  "55": {
+    "stat_name": "HP_percent",
+    "rolls": "+1",
+    "value": "4%"
+  },
+  "56": {
+    "stat_name": "HP_percent",
+    "rolls": "+2",
+    "value": "6%"
+  },
+  "57": {
+    "stat_name": "HP_percent",
+    "rolls": "+3",
+    "value": "8%"
+  },
+  "58": {
+    "stat_name": "HP_percent",
+    "rolls": "",
+    "value": "1%"
+  },
+  "59": {
+    "stat_name": "HP_percent",
+    "rolls": "+1",
+    "value": "2%"
+  },
+  "60": {
+    "stat_name": "DEF_percent",
+    "rolls": "",
+    "value": "4.8%"
+  },
+  "61": {
+    "stat_name": "DEF_percent",
+    "rolls": "+1",
+    "value": "9.6%"
+  },
+  "62": {
+    "stat_name": "DEF_percent",
+    "rolls": "+2",
+    "value": "14.4%"
+  },
+  "63": {
+    "stat_name": "DEF_percent",
+    "rolls": "+3",
+    "value": "19.2%"
+  },
+  "64": {
+    "stat_name": "DEF_percent",
+    "rolls": "+4",
+    "value": "24%"
+  },
+  "65": {
+    "stat_name": "DEF_percent",
+    "rolls": "+5",
+    "value": "28.8%"
+  },
+  "66": {
+    "stat_name": "DEF_percent",
+    "rolls": "",
+    "value": "3.2%"
+  },
+  "67": {
+    "stat_name": "DEF_percent",
+    "rolls": "+1",
+    "value": "6.4%"
+  },
+  "68": {
+    "stat_name": "DEF_percent",
+    "rolls": "+2",
+    "value": "9.6%"
+  },
+  "69": {
+    "stat_name": "DEF_percent",
+    "rolls": "+3",
+    "value": "12.8%"
+  },
+  "70": {
+    "stat_name": "DEF_percent",
+    "rolls": "",
+    "value": "1.6%"
+  },
+  "71": {
+    "stat_name": "DEF_percent",
+    "rolls": "+1",
+    "value": "3.2%"
+  },
+  "72": {
+    "stat_name": "CRIT Rate",
+    "rolls": "",
+    "value": "2.4%"
+  },
+  "73": {
+    "stat_name": "CRIT Rate",
+    "rolls": "+1",
+    "value": "4.8%"
+  },
+  "74": {
+    "stat_name": "CRIT Rate",
+    "rolls": "+2",
+    "value": "7.2%"
+  },
+  "75": {
+    "stat_name": "CRIT Rate",
+    "rolls": "+3",
+    "value": "9.6%"
+  },
+  "76": {
+    "stat_name": "CRIT Rate",
+    "rolls": "+4",
+    "value": "12%"
+  },
+  "77": {
+    "stat_name": "CRIT Rate",
+    "rolls": "+5",
+    "value": "14.4%"
+  },
+  "78": {
+    "stat_name": "CRIT Rate",
+    "rolls": "",
+    "value": "1.6%"
+  },
+  "79": {
+    "stat_name": "CRIT Rate",
+    "rolls": "+1",
+    "value": "3.2%"
+  },
+  "80": {
+    "stat_name": "CRIT Rate",
+    "rolls": "+2",
+    "value": "4.8%"
+  },
+  "81": {
+    "stat_name": "CRIT Rate",
+    "rolls": "+3",
+    "value": "6.4%"
+  },
+  "82": {
+    "stat_name": "CRIT Rate",
+    "rolls": "",
+    "value": "0.8%"
+  },
+  "83": {
+    "stat_name": "CRIT Rate",
+    "rolls": "+1",
+    "value": "1.6%"
+  },
+  "84": {
+    "stat_name": "CRIT DMG",
+    "rolls": "",
+    "value": "4.8%"
+  },
+  "85": {
+    "stat_name": "CRIT DMG",
+    "rolls": "+1",
+    "value": "9.6%"
+  },
+  "86": {
+    "stat_name": "CRIT DMG",
+    "rolls": "+2",
+    "value": "14.4%"
+  },
+  "87": {
+    "stat_name": "CRIT DMG",
+    "rolls": "+3",
+    "value": "19.2%"
+  },
+  "88": {
+    "stat_name": "CRIT DMG",
+    "rolls": "+4",
+    "value": "24%"
+  },
+  "89": {
+    "stat_name": "CRIT DMG",
+    "rolls": "+5",
+    "value": "28.8%"
+  },
+  "90": {
+    "stat_name": "CRIT DMG",
+    "rolls": "",
+    "value": "3.2%"
+  },
+  "91": {
+    "stat_name": "CRIT DMG",
+    "rolls": "+1",
+    "value": "6.4%"
+  },
+  "92": {
+    "stat_name": "CRIT DMG",
+    "rolls": "+2",
+    "value": "9.6%"
+  },
+  "93": {
+    "stat_name": "CRIT DMG",
+    "rolls": "+3",
+    "value": "12.8%"
+  },
+  "94": {
+    "stat_name": "CRIT DMG",
+    "rolls": "",
+    "value": "1.6%"
+  },
+  "95": {
+    "stat_name": "CRIT DMG",
+    "rolls": "+1",
+    "value": "3.2%"
+  },
+  "96": {
+    "stat_name": "Anomaly Proficiency",
+    "rolls": "",
+    "value": "9"
+  },
+  "97": {
+    "stat_name": "Anomaly Proficiency",
+    "rolls": "+1",
+    "value": "18"
+  },
+  "98": {
+    "stat_name": "Anomaly Proficiency",
+    "rolls": "+2",
+    "value": "27"
+  },
+  "99": {
+    "stat_name": "Anomaly Proficiency",
+    "rolls": "+3",
+    "value": "36"
+  },
+  "100": {
+    "stat_name": "Anomaly Proficiency",
+    "rolls": "+4",
+    "value": "45"
+  },
+  "101": {
+    "stat_name": "Anomaly Proficiency",
+    "rolls": "+5",
+    "value": "54"
+  },
+  "102": {
+    "stat_name": "Anomaly Proficiency",
+    "rolls": "",
+    "value": "6"
+  },
+  "103": {
+    "stat_name": "Anomaly Proficiency",
+    "rolls": "+1",
+    "value": "12"
+  },
+  "104": {
+    "stat_name": "Anomaly Proficiency",
+    "rolls": "+2",
+    "value": "18"
+  },
+  "105": {
+    "stat_name": "Anomaly Proficiency",
+    "rolls": "+3",
+    "value": "24"
+  },
+  "106": {
+    "stat_name": "Anomaly Proficiency",
+    "rolls": "",
+    "value": "3"
+  },
+  "107": {
+    "stat_name": "Anomaly Proficiency",
+    "rolls": "+1",
+    "value": "6"
+  },
+  "108": {
+    "stat_name": "PEN",
+    "rolls": "",
+    "value": "9"
+  },
+  "109": {
+    "stat_name": "PEN",
+    "rolls": "+1",
+    "value": "18"
+  },
+  "110": {
+    "stat_name": "PEN",
+    "rolls": "+2",
+    "value": "27"
+  },
+  "111": {
+    "stat_name": "PEN",
+    "rolls": "+3",
+    "value": "36"
+  },
+  "112": {
+    "stat_name": "PEN",
+    "rolls": "+4",
+    "value": "45"
+  },
+  "113": {
+    "stat_name": "PEN",
+    "rolls": "+5",
+    "value": "54"
+  },
+  "114": {
+    "stat_name": "PEN",
+    "rolls": "",
+    "value": "6"
+  },
+  "115": {
+    "stat_name": "PEN",
+    "rolls": "+1",
+    "value": "12"
+  },
+  "116": {
+    "stat_name": "PEN",
+    "rolls": "+2",
+    "value": "18"
+  },
+  "117": {
+    "stat_name": "PEN",
+    "rolls": "+3",
+    "value": "24"
+  },
+  "118": {
+    "stat_name": "PEN",
+    "rolls": "",
+    "value": "3"
+  },
+  "119": {
+    "stat_name": "PEN",
+    "rolls": "+1",
+    "value": "6"
+  },
+  "120": {
+    "stat_name": "Set Effect",
+    "rolls": "",
+    "value": ""
+  }
+}
