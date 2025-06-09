@@ -14,7 +14,7 @@ from torchvision import transforms, models
 # Hyperparameters
 BATCH_SIZE = 32
 learning_rate = 0.001
-EPOCHS = 5
+EPOCHS = 10
 
 
 IMAGE_HEIGHT = 40
@@ -88,7 +88,7 @@ def main():
         start_time = time.time()
         model.train()
         total_train_loss = 0
-        for images, labels in track(train_loader, description=f"Training"):
+        for images, labels in track(train_loader, description=f"Epoch {epoch+1}"):
             images, labels = images.to(device), labels.to(device)
 
             optimizer.zero_grad()
