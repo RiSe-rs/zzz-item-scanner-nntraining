@@ -3,7 +3,7 @@ import time
 from matplotlib import pyplot as plt
 import pandas as pd
 from PIL import Image
-from tqdm import tqdm
+from rich.progress import track
 
 import torch
 import torch.nn as nn
@@ -71,9 +71,9 @@ def main():
     num_classes = len(dataset.data['class_id'].unique())  # number of unique classes
     model.fc = nn.LazyLinear(num_classes)
 
-    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=2, verbose=True)
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=2)
 
     print(model)
 
@@ -88,7 +88,7 @@ def main():
         start_time = time.time()
         model.train()
         total_train_loss = 0
-        for images, labels in tqdm(train_loader, desc=f"Epoch {epoch+1}/{EPOCHS}"):
+        for images, labels in track(train_loader, description=f"Training"):
             images, labels = images.to(device), labels.to(device)
 
             optimizer.zero_grad()
@@ -122,6 +122,7 @@ def main():
 
         avg_val_loss = total_val_loss / len(val_loader)
         val_losses.append(avg_val_loss)
+        print(f"Validation Loss: {avg_val_loss:.4f}")
         acc = correct/total*100
         val_accs.append(acc)
         print(f"Validation Accuracy: {acc:.4f}%")
