@@ -5,7 +5,7 @@ import random
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 # config
-FONT_PATH = "inpin_hongmengti.ttf"
+FONT_PATH = "../inpin_hongmengti.ttf"
 FONT_SIZE = 18
 TEXT_COLOR = (255, 255, 255)
 BG_COLOR = (22, 22, 22)
@@ -53,6 +53,14 @@ def generate_level_images(n):
 
 
             for sample_idx in range(n):
+                rand_font_size = max(10, int(FONT_SIZE*(random.uniform(0.8, 1.2))))
+
+                try:
+                    font = ImageFont.truetype(FONT_PATH, rand_font_size)
+                except OSError:
+                    print("font not found, using default size")
+                    font = ImageFont.load_default()
+
                 width_variation = random.randint(-(BASE_WIDTH/10), (BASE_WIDTH/10))
                 height_variation = random.randint(-(BASE_HEIGHT/10), (BASE_HEIGHT/10))
                 img_width = BASE_WIDTH + width_variation
@@ -69,7 +77,7 @@ def generate_level_images(n):
                 y_offset = random.randint(-(BASE_HEIGHT/10), (BASE_HEIGHT/10))
 
                 x = (img_width - total_width) // 2 + x_offset
-                y = (img_height - FONT_SIZE) // 2 + y_offset
+                y = (img_height - rand_font_size) // 2 + y_offset
 
                 # draw with doubled slash to better emulate later screenshots
                 draw.text((x, y), prefix, font=font, fill=TEXT_COLOR)
