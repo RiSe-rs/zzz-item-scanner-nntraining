@@ -4,3 +4,6 @@
 training_data/level/*.png
 !training_data/level/class_00_000.png
 !training_data/level/class_14_405.png
+# Exclude level CNN checkpoint parameters
+level_cnn/*.pth
+!level_cnn/level_cnn_model.pth
