@@ -1,4 +1,5 @@
 import os
+import sys
 import time
 from matplotlib import pyplot as plt
 import pandas as pd
@@ -16,13 +17,14 @@ BATCH_SIZE = 32
 learning_rate = 0.001
 EPOCHS = 10
 
+DIMENSIONS = {
+    # width, height of image respectively
+    "level": [140, 40],
+    "mainstat": [412, 40],
+    "substat": [412, 40]
+}
 
-IMAGE_HEIGHT = 40
-IMAGE_WIDTH = 140
-CSV_PATH = "../training_data/level/level_labels.csv"
-IMAGE_DIR = "../training_data/level"
-
-class LevelImageDataset(Dataset):
+class ImageDataset(Dataset):
     def __init__(self, csv_file, image_dir, transform=None):
         self.data = pd.read_csv(csv_file)
         self.image_dir = image_dir
@@ -43,16 +45,26 @@ class LevelImageDataset(Dataset):
         return image, label
 
 def main():
+    if len(sys.argv) == 1:
+        argument = sys.argv[1]
+        if argument in DIMENSIONS:
+            print(f"The following CNN will be trained: {argument}")
+        else:
+            print("Invalid argument. Provide 'level', 'mainstat', or 'substat'")
+            exit()
+    else:
+        print("Provide argument: 'level', 'mainstat', or 'substat'")
+        exit()
     # image transformations
     transform = transforms.Compose([
-        transforms.Resize((IMAGE_HEIGHT, IMAGE_WIDTH)),
+        transforms.Resize((DIMENSIONS[argument][1], DIMENSIONS[argument][0])),
         transforms.ToTensor(),
         transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
     ])
     # load dataset
-    dataset = LevelImageDataset(
-        csv_file=CSV_PATH,
-        image_dir=IMAGE_DIR,
+    dataset = ImageDataset(
+        csv_file="training_data/"+argument+"/"+argument+"_labels.csv",
+        image_dir="training_data/"+argument,
         transform=transform
     )
 
@@ -127,7 +139,7 @@ def main():
         val_accs.append(acc)
         print(f"Validation Accuracy: {acc:.4f}%")
         # save model after each epoch
-        torch.save(model.state_dict(), f"level_resnet18_epoch{epoch+1}.pth")
+        torch.save(model.state_dict(), f"{argument}_cnn/{argument}_resnet18_epoch{epoch+1}.pth")
 
         # adjust learning rate based on validation loss
         scheduler.step(avg_val_loss)
@@ -138,7 +150,7 @@ def main():
         print(f"Epoch {epoch+1} took {h:02}:{m:02}:{s:.2f}")
 
     # save model after training
-    torch.save(model.state_dict(), "level_cnn_model.pth")
+    torch.save(model.state_dict(), f"{argument}_nn/{argument}_cnn_model.pth")
 
     plt.plot(train_losses, label='Train Loss')
     plt.plot(val_losses, label='Validation Loss')

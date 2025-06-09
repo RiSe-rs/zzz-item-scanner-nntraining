@@ -54,14 +54,13 @@ The biggest issue is training on the set name. Since additional sets will be rel
 ### TODO:
 * generate convincing synthetic data to train on
     * ~~levels~~
-    * main stat
+    * ~~main stat~~
     * sub-stat line
     * set name
 * build the 3 CNNs and train on data
-    * dataloader
-    * train
-    * save params
-    * optimize
+    * train (~~level~~/mainstat/sub-stat line)
+    * save params (~~level~~/mainstat/sub-stat line)
+    * optimize (level/mainstat/sub-stat line)
 * build the CRNN/OCR for set name
     * dataloader
     * train
