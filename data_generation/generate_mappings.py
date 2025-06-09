@@ -94,7 +94,7 @@ def generate_level_classes():
             level = str(j)
             add_to_level_mapping(tier, level, LEVEL_CLASS_MAPPING)
     
-    with open("mappings/level_class_mapping.json", "w", encoding="utf-8") as f:
+    with open("../mappings/level_class_mapping.json", "w", encoding="utf-8") as f:
         json.dump(LEVEL_CLASS_MAPPING, f, indent=2, ensure_ascii=False)
 
 def generate_main_classes():
@@ -115,7 +115,7 @@ def generate_main_classes():
                 #print(f"{stat_name} {value_text} {tier} {level}")
                 add_to_main_mapping(stat_name, value_text, MAIN_CLASS_MAPPING)
 
-    with open("mappings/mainstat_class_mapping.json", "w", encoding="utf-8") as f:
+    with open("../mappings/mainstat_class_mapping.json", "w", encoding="utf-8") as f:
         json.dump(MAIN_CLASS_MAPPING, f, indent=2, ensure_ascii=False)       
 
 def generate_sub_classes():
@@ -132,7 +132,7 @@ def generate_sub_classes():
                 add_to_sub_mapping(stat_name, roll_str, stat_value, SUB_CLASS_MAPPING)
     add_to_sub_mapping("Set Effect", "", "", SUB_CLASS_MAPPING)
 
-    with open("mappings/substat_class_mapping.json", "w", encoding="utf-8") as f:
+    with open("../mappings/substat_class_mapping.json", "w", encoding="utf-8") as f:
         json.dump(SUB_CLASS_MAPPING, f, indent=2, ensure_ascii=False)
 
 

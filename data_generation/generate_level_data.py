@@ -11,9 +11,9 @@ TEXT_COLOR = (255, 255, 255)
 BG_COLOR = (22, 22, 22)
 BASE_WIDTH = 140
 BASE_HEIGHT = 40
-OUTPUT_DIR = "training_data/level"
+OUTPUT_DIR = "../training_data/level"
 CSV_PATH = os.path.join(OUTPUT_DIR, "level_labels.csv")
-MAPPING_PATH = "mappings/level_class_mapping.json"
+MAPPING_PATH = "../mappings/level_class_mapping.json"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
