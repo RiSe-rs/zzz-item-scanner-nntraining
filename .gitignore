@@ -1,2 +1,6 @@
 # Exclude font files
 *.ttf
+# Exclude everthing in training_data/level directory except few example files
+training_data/level/*.png
+!training_data/level/class_00_000.png
+!training_data/level/class_14_405.png

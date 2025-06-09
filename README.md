@@ -50,3 +50,21 @@ We can easily enumerate over all categories to receive the amount of classes per
 With these limited amount of possible classes per net a traditional CNN like ResNet-18 should train fast and have high accuracy.
 
 The biggest issue is training on the set name. Since additional sets will be released in the future and they won't just contain English word (comp. first example) a generic OCR or CRNN on the specific font will probably have to be used.
+
+### TODO:
+* generate convincing synthetic data to train on
+    * ~~levels~~
+    * main stat
+    * sub-stat line
+    * set name
+* build the 3 CNNs and train on data
+    * dataloader
+    * train
+    * save params
+    * optimize
+* build the CRNN/OCR for set name
+    * dataloader
+    * train
+    * save params
+    * optimize
+* make deployable i.e. for use in another of my repos
