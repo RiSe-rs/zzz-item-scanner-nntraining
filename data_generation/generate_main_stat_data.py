@@ -1,4 +1,5 @@
 import os
+import re
 import csv
 import json
 import random
@@ -9,19 +10,14 @@ FONT_PATH = "../inpin_hongmengti.ttf"
 FONT_SIZE = 18
 TEXT_COLOR = (255, 255, 255)
 BG_COLOR = (22, 22, 22)
-BASE_WIDTH = 140
+BASE_WIDTH = 412
 BASE_HEIGHT = 40
-OUTPUT_DIR = "../training_data/level"
-CSV_PATH = os.path.join(OUTPUT_DIR, "level_labels.csv")
-MAPPING_PATH = "../mappings/level_class_mapping.json"
+PADDING = 15
+OUTPUT_DIR = "../training_data/mainstat"
+CSV_PATH = os.path.join(OUTPUT_DIR, "mainstat_labels.csv")
+MAPPING_PATH = "../mappings/mainstat_class_mapping.json"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
-
-TIER_MAX_LEVEL = {
-    "S": 15,
-    "A": 12,
-    "B": 9
-}
 
 # load font
 try:
@@ -31,7 +27,7 @@ except OSError:
 
 
 # image gen
-def generate_level_images(n):
+def generate_mainstat_images(n):
     # load mapping
     with open(MAPPING_PATH, encoding="utf-8") as f:
         mapping = json.load(f)
@@ -42,15 +38,10 @@ def generate_level_images(n):
         writer.writerow(["filename", "class_id"])
 
         for class_id, data in mapping.items():
-            level = int(data["level"])
-            tier = data["tier"]
-            max_level = TIER_MAX_LEVEL.get(tier)
-
-            prefix = f"Lv. {level:02}"
-            slash = "/"
-            suffix = f"{max_level:02}"
-
-
+            value = data["value"]
+            stat_name = data["stat_name"]
+            # remove _flat and _percent fom ATK, DEF and HP
+            stat_name = re.split(r"_", stat_name, maxsplit=1)[0]
 
             for sample_idx in range(n):
                 rand_font_size = max(10, int(FONT_SIZE*(random.uniform(0.8, 1.2))))
@@ -69,23 +60,20 @@ def generate_level_images(n):
                 img = Image.new("RGB", (img_width, img_height), color=BG_COLOR)
                 draw = ImageDraw.Draw(img)
 
-                total_text = prefix + slash + suffix
-                total_width = draw.textlength(total_text, font=font)
-
                 # random offsets for text position
-                x_offset = random.randint(int(-(BASE_WIDTH/10)), int((BASE_WIDTH/10)))
+                x_offset = random.randint(int(-(BASE_WIDTH/20)), int((BASE_WIDTH/20)))
                 y_offset = random.randint(int(-(BASE_HEIGHT/10)), int((BASE_HEIGHT/10)))
 
-                x = (img_width - total_width) // 2 + x_offset
+                x = PADDING + x_offset
                 y = (img_height - rand_font_size) // 2 + y_offset
 
-                # draw with doubled slash to better emulate later screenshots
-                draw.text((x, y), prefix, font=font, fill=TEXT_COLOR)
-                x += draw.textlength(prefix, font=font)
-                for dx in [0, 0.5]:
-                    draw.text((x + dx, y), "/", font=font, fill=TEXT_COLOR)
-                x += draw.textlength("/", font=font)
-                draw.text((x + 1, y), suffix, font=font, fill=TEXT_COLOR)
+                # draw stat on left side
+                draw.text((x, y), stat_name, font=font, fill=TEXT_COLOR)
+
+                # draw value on right side
+                text_width_value = draw.textlength(value, font=font)
+                x = img_width - text_width_value - PADDING + x_offset
+                draw.text((x, y), value, font=font, fill=TEXT_COLOR)
 
                 # random blur effect to emulate different image qualities
                 if random.random() < 0.5:
@@ -102,7 +90,7 @@ def generate_level_images(n):
                 writer.writerow([filename, class_id])
 
 def main():
-    generate_level_images(1000)
+    generate_mainstat_images(1000)
 
 # === Ausführung ===
 if __name__ == "__main__":
