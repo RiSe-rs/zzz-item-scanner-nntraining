@@ -1,3 +1,5 @@
+# Exlude log files
+*.log
 # Exclude font files
 *.ttf
 # Exclude everything in training_data/ directory except few example files
@@ -5,5 +7,6 @@ training_data/*/*.png
 !training_data/level/class_00_000.png
 !training_data/level/class_14_405.png
 # Exclude level CNN checkpoint parameters
-level_cnn/*.pth
+*.pth
 !level_cnn/level_cnn_model.pth
+!mainstat_cnn_model.pth

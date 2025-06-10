@@ -45,7 +45,7 @@ class ImageDataset(Dataset):
         return image, label
 
 def main():
-    if len(sys.argv) == 1:
+    if len(sys.argv) == 2:
         argument = sys.argv[1]
         if argument in DIMENSIONS:
             print(f"The following CNN will be trained: {argument}")
@@ -87,7 +87,8 @@ def main():
     optimizer = optim.Adam(model.parameters(), lr=learning_rate)
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=2)
 
-    print(model)
+    #visualize model in console
+    #print(model)
 
     # use GPU if available
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -138,11 +139,13 @@ def main():
         acc = correct/total*100
         val_accs.append(acc)
         print(f"Validation Accuracy: {acc:.4f}%")
-        # save model after each epoch
-        torch.save(model.state_dict(), f"{argument}_cnn/{argument}_resnet18_epoch{epoch+1}.pth")
 
         # adjust learning rate based on validation loss
         scheduler.step(avg_val_loss)
+
+        # save model after each epoch
+        torch.save(model.state_dict(), f"{argument}_cnn/{argument}_resnet18_epoch{epoch+1}.pth")
+        
 
         elapsed = time.time() - start_time
         h, rem = divmod(int(elapsed), 3600)
