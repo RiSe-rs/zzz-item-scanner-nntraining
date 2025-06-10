@@ -70,12 +70,14 @@ def generate_substat_images(n):
                 y = (img_height - rand_font_size) // 2 + y_offset
 
                 # add 1-3 space charaters after stat name and append rolls
-                stat_name += " " * random.randint(1, 3)
+                spaces = " " * random.randint(1, 3)
+                stat_and_spaces = stat_name+spaces
 
                 # draw stat on left side
                 draw.text((x, y), stat_name, font=font, fill=TEXT_COLOR)
                 # draw rolls after stat name
-                draw.text((x + draw.textlength(stat_name, font=font), y), rolls, font=font, fill=ROLL_COLOR)
+                rolls_x = x + draw.textlength(stat_and_spaces, font=font)
+                draw.text((rolls_x, y), rolls, font=font, fill=ROLL_COLOR)
 
                 # draw value on right side
                 text_width_value = draw.textlength(value, font=font)

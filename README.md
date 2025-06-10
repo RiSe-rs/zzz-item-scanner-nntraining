@@ -55,7 +55,7 @@ The biggest issue is training on the set name. Since additional sets will be rel
 * generate convincing synthetic data to train on
     * ~~levels~~
     * ~~main stat~~
-    * sub-stat line
+    * ~~sub-stat line~~
     * set name
 * build the 3 CNNs and train on data
     * train (~~level~~/mainstat/sub-stat line)
