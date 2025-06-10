@@ -12,3 +12,4 @@ training_data/*/*.png
 *.pth
 !level_cnn/level_cnn_model.pth
 !mainstat_cnn_model.pth
+# test
