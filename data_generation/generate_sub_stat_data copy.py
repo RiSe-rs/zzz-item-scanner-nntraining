@@ -101,7 +101,6 @@ def generate_substat_images(n):
 def main():
     generate_substat_images(1000)
 
-# === Ausführung ===
 if __name__ == "__main__":
     main()
     print("Training data generated successfully.")

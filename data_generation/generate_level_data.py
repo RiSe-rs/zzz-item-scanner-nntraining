@@ -104,7 +104,6 @@ def generate_level_images(n):
 def main():
     generate_level_images(1000)
 
-# === Ausführung ===
 if __name__ == "__main__":
     main()
     print("Training data generated successfully.")
