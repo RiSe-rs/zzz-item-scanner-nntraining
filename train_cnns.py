@@ -107,7 +107,7 @@ def main():
             print(f"Resuming training from epoch {start_epoch + 1}, for {epochs} epochs.")
     else:
         print(f"No checkpoint provided or file does not exist. Starting training from scratch, for {epochs} epochs.")
-        
+
     #visualize model in console
     #print(model)
 
@@ -123,11 +123,12 @@ def main():
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=2)
 
 
-    for epoch in range(start_epoch, epochs):
+    for epoch in range(epochs):
+        epoch_index_string = str(start_epoch + epoch + 1)
         start_time = time.time()
         model.train()
         total_train_loss = 0
-        for images, labels in track(train_loader, description=f"Epoch {epoch+1}"):
+        for images, labels in track(train_loader, description=f"Epoch {epoch_index_string}"):
             images, labels = images.to(device), labels.to(device)
 
             optimizer.zero_grad()
@@ -141,7 +142,7 @@ def main():
         
         avg_train_loss = total_train_loss / len(train_loader)
         train_losses.append(avg_train_loss)
-        print(f"Epoch {epoch+1} has Training Loss = {avg_train_loss:.4f}")
+        print(f"Epoch {epoch_index_string} has Training Loss = {avg_train_loss:.4f}")
     
         # evaluation
         model.eval()
@@ -170,16 +171,16 @@ def main():
         scheduler.step(avg_val_loss)
 
         # save model after each epoch
-        torch.save(model.state_dict(), f"{cnn_name}_cnn/{cnn_name}_resnet18_epoch{epoch+1}.pth")
+        torch.save(model.state_dict(), f"{cnn_name}_cnn/{cnn_name}_resnet18_epoch{epoch_index_string}.pth")
         
 
         elapsed = time.time() - start_time
         h, rem = divmod(int(elapsed), 3600)
         m, s = divmod(rem, 60)
-        print(f"Epoch {epoch+1} took {h:02}:{m:02}:{s:.2f}")
+        print(f"Epoch {epoch_index_string} took {h:02}:{m:02}:{s:.2f}")
 
     # save model after training
-    torch.save(model.state_dict(), f"{cnn_name}_nn/{cnn_name}_cnn_model.pth")
+    torch.save(model.state_dict(), f"{cnn_name}_cnn/{cnn_name}_cnn_model.pth")
 
     plt.plot(train_losses, label='Train Loss')
     plt.plot(val_losses, label='Validation Loss')
