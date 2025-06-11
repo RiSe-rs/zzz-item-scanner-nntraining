@@ -1,6 +1,7 @@
 import os
 import sys
 import time
+import re
 from matplotlib import pyplot as plt
 import pandas as pd
 from PIL import Image
@@ -15,7 +16,6 @@ from torchvision import transforms, models
 # Hyperparameters
 BATCH_SIZE = 32
 learning_rate = 0.001
-EPOCHS = 10
 
 DIMENSIONS = {
     # width, height of image respectively
@@ -45,26 +45,38 @@ class ImageDataset(Dataset):
         return image, label
 
 def main():
-    if len(sys.argv) == 2:
-        argument = sys.argv[1]
-        if argument in DIMENSIONS:
-            print(f"The following CNN will be trained: {argument}")
-        else:
-            print("Invalid argument. Provide 'level', 'mainstat', or 'substat'")
-            exit()
-    else:
-        print("Provide argument: 'level', 'mainstat', or 'substat'")
+    if len (sys.argv) < 2 or len(sys.argv) > 4:
+        print("Usage: python train_cnns.py <level|mainstat|substat> [epochs=10] [model_checkpoint_epochX.pth]")
         exit()
+    
+    cnn_name = sys.argv[1]
+    if cnn_name not in DIMENSIONS:
+        print("Invalid cnn_name. Provide 'level', 'mainstat', or 'substat'")
+        exit()
+    
+    epochs = 10  # default epochs
+    checkpoint_path_position = 3
+    # get epochs from command line argument
+    if sys.argv[2].isdigit():
+        epochs = int(sys.argv[2])
+    else:
+        checkpoint_path_position = 2
+        print(f"Using default epochs: {epochs}")
+    
+    
+    checkpoint_path = f"{cnn_name}_cnn/{sys.argv[checkpoint_path_position]}" if len(sys.argv) == checkpoint_path_position+1 else None
+    print(f"Training CNN for {cnn_name} with checkpoint: {checkpoint_path if checkpoint_path else 'None'}")
+    
     # image transformations
     transform = transforms.Compose([
-        transforms.Resize((DIMENSIONS[argument][1], DIMENSIONS[argument][0])),
+        transforms.Resize((DIMENSIONS[cnn_name][1], DIMENSIONS[cnn_name][0])),
         transforms.ToTensor(),
         transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
     ])
     # load dataset
     dataset = ImageDataset(
-        csv_file="training_data/"+argument+"/"+argument+"_labels.csv",
-        image_dir="training_data/"+argument,
+        csv_file="training_data/"+cnn_name+"/"+cnn_name+"_labels.csv",
+        image_dir="training_data/"+cnn_name,
         transform=transform
     )
 
@@ -83,10 +95,19 @@ def main():
     num_classes = len(dataset.data['class_id'].unique())  # number of unique classes
     model.fc = nn.LazyLinear(num_classes)
 
-    criterion = nn.CrossEntropyLoss()
-    optimizer = optim.Adam(model.parameters(), lr=learning_rate)
-    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=2)
-
+    # load checkpoint if provided
+    print(checkpoint_path)
+    start_epoch = 0
+    if checkpoint_path and os.path.exists(checkpoint_path):
+        model.load_state_dict(torch.load(checkpoint_path))
+        print("Checkpoint loaded successfully.")
+        match = re.search(r'_epoch(\d+)\.pth', checkpoint_path)
+        if match:
+            start_epoch = int(match.group(1))
+            print(f"Resuming training from epoch {start_epoch + 1}, for {epochs} epochs.")
+    else:
+        print(f"No checkpoint provided or file does not exist. Starting training from scratch, for {epochs} epochs.")
+        
     #visualize model in console
     #print(model)
 
@@ -97,7 +118,12 @@ def main():
     val_losses = []
     val_accs = []
 
-    for epoch in range(EPOCHS):
+    criterion = nn.CrossEntropyLoss()
+    optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=2)
+
+
+    for epoch in range(start_epoch, epochs):
         start_time = time.time()
         model.train()
         total_train_loss = 0
@@ -144,7 +170,7 @@ def main():
         scheduler.step(avg_val_loss)
 
         # save model after each epoch
-        torch.save(model.state_dict(), f"{argument}_cnn/{argument}_resnet18_epoch{epoch+1}.pth")
+        torch.save(model.state_dict(), f"{cnn_name}_cnn/{cnn_name}_resnet18_epoch{epoch+1}.pth")
         
 
         elapsed = time.time() - start_time
@@ -153,7 +179,7 @@ def main():
         print(f"Epoch {epoch+1} took {h:02}:{m:02}:{s:.2f}")
 
     # save model after training
-    torch.save(model.state_dict(), f"{argument}_nn/{argument}_cnn_model.pth")
+    torch.save(model.state_dict(), f"{cnn_name}_nn/{cnn_name}_cnn_model.pth")
 
     plt.plot(train_losses, label='Train Loss')
     plt.plot(val_losses, label='Validation Loss')
