@@ -10,6 +10,8 @@ training_data/*/*.png
 !training_data/mainstat/class_523_689.png
 !training_data/substat/class_00_000.png
 !training_data/substat/class_99_123.png
+!training_data/setname/set_00000.png
+!training_data/setname/set_00011.png
 # Exclude level CNN checkpoint parameters
 *.pth
 !level_cnn/level_cnn_model.pth
