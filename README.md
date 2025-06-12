@@ -58,8 +58,8 @@ The biggest issue is training on the set name. Since additional sets will be rel
     * ~~sub-stat line~~
     * set name
 * build the 3 CNNs and train on data
-    * train (~~level~~/mainstat/sub-stat line)
-    * save params (~~level~~/mainstat/sub-stat line)
+    * train (~~level~~/mainstat/~~sub-stat line~~)
+    * save params (~~level~~/mainstat/~~sub-stat line~~)
     * optimize (level/mainstat/sub-stat line)
 * build the CRNN/OCR for set name
     * dataloader
