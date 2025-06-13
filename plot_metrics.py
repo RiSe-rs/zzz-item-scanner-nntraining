@@ -38,7 +38,6 @@ def draw_plot(csv_path, plot_path):
     ax2 = ax1.twinx()
     ax2.set_ylabel('Validation Accuracy (%)')
     ax2.plot(df['epoch'], df['val_acc']*100, label='Validation Accuracy', color='tab:green')
-    ax2.set_ylim(0, 100)
     ax2.tick_params(axis='y')
 
     # legends
