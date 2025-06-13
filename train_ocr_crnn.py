@@ -7,6 +7,7 @@ from matplotlib import pyplot as plt
 import pandas as pd
 from PIL import Image
 from rich.progress import track
+from plot_metrics import save_for_plot, draw_plot
 
 import torch
 import torch.nn as nn
@@ -117,17 +118,17 @@ def main():
         exit()
     
     epochs = 10  # default epochs
-    checkpoint_path_position = 1
+    checkpoint_path_position = 2
 
     if len(sys.argv) >= 2:
         if sys.argv[1].isdigit():
             epochs = int(sys.argv[1])
         else:
-            checkpoint_path_position = 2
+            checkpoint_path_position = 1
             print(f"Using default epochs: {epochs}")
     
     
-    checkpoint_path = f"setname_crnn_cnn/{sys.argv[checkpoint_path_position]}" if len(sys.argv) == checkpoint_path_position+1 else None
+    checkpoint_path = f"setname_crnn/{sys.argv[checkpoint_path_position]}" if len(sys.argv) == checkpoint_path_position+1 else None
     print(f"Training CNN for setname_crnn with checkpoint: {checkpoint_path if checkpoint_path else 'None'}")
     
     # image transformations
@@ -205,7 +206,7 @@ def main():
         total = 0
         total_val_loss = 0
         with torch.no_grad():
-            for images, labels, label_lengths in loader:
+            for images, labels, label_lengths in track(loader, description=f"Validation {epoch_index_string}"):
                 images, labels, label_lengths = images.to(device), labels.to(device), label_lengths.to(device)
 
                 outputs = model(images) 
@@ -241,6 +242,7 @@ def main():
         # save model after each epoch
         torch.save(model.state_dict(), f"setname_crnn/setname_crnn_epoch{epoch_index_string}.pth")
         
+        save_for_plot(avg_train_loss, avg_val_loss, acc, epoch_index_string)
 
         elapsed = time.time() - start_time
         h, rem = divmod(int(elapsed), 3600)
@@ -248,17 +250,11 @@ def main():
         print(f"Epoch {epoch_index_string} took {h:02}:{m:02}:{s:.2f}")
 
     # save model after training
-    torch.save(model.state_dict(), f"setname_crnn/setname_crnn_model.pth")
+    if epochs > 0:
+        torch.save(model.state_dict(), f"setname_crnn/setname_crnn_model.pth")
 
-    plt.plot(train_losses, label='Train Loss')
-    plt.plot(val_losses, label='Validation Loss')
-    plt.plot(val_accs, label='Validation Accuracy')
-    plt.xlabel('Epoch')
-    plt.legend()
-    plt.grid(True)
-    plt.savefig("setname_crnn/loss_curve.png")
-    plt.show()
 
 
 if __name__ == "__main__":
     main()
+    draw_plot("setname_crnn/training_metrics.csv", "setname_crnn/training_metrics.png")

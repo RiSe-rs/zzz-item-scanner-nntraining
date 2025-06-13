@@ -13,6 +13,8 @@ import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms, models
 
+from plot_metrics import draw_plot, save_for_plot
+
 # Hyperparameters
 BATCH_SIZE = 32
 learning_rate = 0.001
@@ -173,24 +175,18 @@ def main():
         # save model after each epoch
         torch.save(model.state_dict(), f"{cnn_name}_cnn/{cnn_name}_resnet18_epoch{epoch_index_string}.pth")
         
-
+        save_for_plot(avg_train_loss, avg_val_loss, acc, epoch_index_string)
+        
         elapsed = time.time() - start_time
         h, rem = divmod(int(elapsed), 3600)
         m, s = divmod(rem, 60)
         print(f"Epoch {epoch_index_string} took {h:02}:{m:02}:{s:.2f}")
 
     # save model after training
-    torch.save(model.state_dict(), f"{cnn_name}_cnn/{cnn_name}_cnn_model.pth")
+    if epochs > 0:
+        torch.save(model.state_dict(), f"{cnn_name}_cnn/{cnn_name}_cnn_model.pth")
 
-    plt.plot(train_losses, label='Train Loss')
-    plt.plot(val_losses, label='Validation Loss')
-    plt.plot(val_accs, label='Validation Accuracy')
-    plt.xlabel('Epoch')
-    plt.legend()
-    plt.grid(True)
-    plt.savefig("loss_curve.png")
-    plt.show()
-
+    draw_plot(f"{cnn_name}_cnn/training_metrics.csv", f"{cnn_name}_cnn/training_metrics.png")
 
 if __name__ == "__main__":
     main()
