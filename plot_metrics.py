@@ -32,14 +32,14 @@ def draw_plot(csv_path, plot_path):
     ax1.set_ylabel('Loss')
     ax1.plot(df['epoch'], df['train_loss'], label='Train Loss', color='tab:blue')
     ax1.plot(df['epoch'], df['val_loss'], label='Validation Loss', color='tab:orange')
-    ax1.tick_params(axis='y', labelcolor='tab:blue')
+    ax1.tick_params(axis='y')
 
     # right: accuracy
     ax2 = ax1.twinx()
     ax2.set_ylabel('Validation Accuracy (%)')
     ax2.plot(df['epoch'], df['val_acc']*100, label='Validation Accuracy', color='tab:green')
     ax2.set_ylim(0, 100)
-    ax2.tick_params(axis='y', labelcolor='tab:green')
+    ax2.tick_params(axis='y')
 
     # legends
     lines1, labels1 = ax1.get_legend_handles_labels()

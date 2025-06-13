@@ -17,4 +17,5 @@ training_data/*/*.png
 !level_cnn_model.pth
 !mainstat_cnn_model.pth
 !substat_cnn_model.pth
-# test
+# Exclude python cache files
+__pycache__/

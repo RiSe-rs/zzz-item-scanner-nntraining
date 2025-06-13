@@ -256,5 +256,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    #main()
     draw_plot("setname_crnn/training_metrics.csv", "setname_crnn/training_metrics.png")
