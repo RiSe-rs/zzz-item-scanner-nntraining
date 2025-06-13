@@ -51,6 +51,8 @@ With these limited amount of possible classes per net a traditional CNN like Res
 
 The biggest issue is training on the set name. Since additional sets will be released in the future and they won't just contain English word (comp. first example) a generic OCR or CRNN on the specific font will probably have to be used.
 
+First experiments using the CRNN structure of [this paper](https://arxiv.org/abs/1507.05717) do seem promising, need to train for more epochs
+
 ### TODO:
 * generate convincing synthetic data to train on
     * ~~levels~~
