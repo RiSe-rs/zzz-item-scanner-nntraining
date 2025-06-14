@@ -242,7 +242,7 @@ def main():
         # save model after each epoch
         torch.save(model.state_dict(), f"setname_crnn/setname_crnn_epoch{epoch_index_string}.pth")
         
-        save_for_plot(avg_train_loss, avg_val_loss, acc, epoch_index_string)
+        save_for_plot(avg_train_loss, avg_val_loss, acc, epoch_index_string, "setname_crnn/training_metrics.csv")
 
         elapsed = time.time() - start_time
         h, rem = divmod(int(elapsed), 3600)
@@ -256,5 +256,5 @@ def main():
 
 
 if __name__ == "__main__":
-    #main()
+    main()
     draw_plot("setname_crnn/training_metrics.csv", "setname_crnn/training_metrics.png")
